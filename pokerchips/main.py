@@ -36,6 +36,7 @@ def ReadColor(coordinate):
             distance = new_distance 
     return return_color
 
+ev3.speaker.beep()
 
 while True:
     print(ReadColor(cd.rgb()))
